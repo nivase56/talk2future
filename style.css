@@ -1126,9 +1126,11 @@ footer ul {
     flex-wrap: wrap; /* Wrap items on smaller screens */
 }
 
-footer ul li {
+footer ul li a{
     margin: 0; /* Ensure consistent spacing */
     white-space: nowrap; /* Prevent text from breaking unnecessarily */
+    color: rgb(210, 207, 207);
+    text-decoration: none;
 }
 
 footer p {
@@ -1143,11 +1145,7 @@ footer p {
         padding: 1rem 0; /* Reduce vertical padding */
         font-size: 0.8rem; /* Shrink font size */
     }
-
-    footer ul li {
-        white-space: normal; /* Allow line breaks if needed */
-        text-align: center;
-    }
+   
 
     footer p {
         font-size: 0.7rem; /* Reduce copyright text size */
