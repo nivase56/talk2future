@@ -1,0 +1,49 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.flex {
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.underlined {
+    text-decoration: underline;
+    text-decoration-color: #00bcd4;
+    text-underline-offset: 18px; /* Adjust the gap here */
+
+  }
+.bold{
+    font-weight: bold;
+}
+/* Navbar */
+dialog {
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .popup-link {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .close-button {
+    padding: 8px 16px;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .close
